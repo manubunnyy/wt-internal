@@ -1,22 +1,20 @@
-# 📚 WT Internal Repository
+# WT Internal Repository
 
-This repository contains various files related to web technologies. Below is a table listing each file along with a button to copy its contents.
+This repository contains various text files. You can view and copy the contents of each file by clicking the links below.
 
-| File Name            | Action |
-|----------------------|--------|
-| `add-cart.txt`       | [Click Here](#add-cart) |
-| `dynamic.txt`        | [Click Here](#dynamic) |
-| `form-forget.txt`    | [Click Here](#form-forget) |
-| `frames-full.txt`    | [Click Here](#frames-full) |
-| `frames-style.txt`   | [Click Here](#frames-style) |
-| `frames.txt`         | [Click Here](#frames) |
-| `user-form.txt`      | [Click Here](#user-form) |
-| `xml-onlinestore.txt`| [Click Here](#xml-onlinestore) |
-| `xml-useraccount.txt`| [Click Here](#xml-useraccount) |
+## Files
 
-## 📋 File Contents
+- [add-cart.txt](https://raw.githubusercontent.com/manubunnyy/wt-internal/main/add-cart.txt)
+- [dynamic.txt](https://raw.githubusercontent.com/manubunnyy/wt-internal/main/dynamic.txt)
+- [form-forget.txt](https://raw.githubusercontent.com/manubunnyy/wt-internal/main/form-forget.txt)
+- [frames-full.txt](https://raw.githubusercontent.com/manubunnyy/wt-internal/main/frames-full.txt)
+- [frames-style.txt](https://raw.githubusercontent.com/manubunnyy/wt-internal/main/frames-style.txt)
+- [frames.txt](https://raw.githubusercontent.com/manubunnyy/wt-internal/main/frames.txt)
+- [user-form.txt](https://raw.githubusercontent.com/manubunnyy/wt-internal/main/user-form.txt)
+- [xml-onlinestore.txt](https://raw.githubusercontent.com/manubunnyy/wt-internal/main/xml-onlinestore.txt)
+- [xml-useraccount.txt](https://raw.githubusercontent.com/manubunnyy/wt-internal/main/xml-useraccount.txt)
 
-### <a name="add-cart"></a>add-cart.txt
+## How to Use
 
-```plaintext
-[Contents of add-cart.txt]
+Simply click on any of the file names above, and it will open the raw file content in your browser. You can then copy it directly from there.
+
