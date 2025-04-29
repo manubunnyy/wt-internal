@@ -1,0 +1,45 @@
+#################### index.html ########################
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Online Book Store</title>
+</head>
+<frameset rows="15%, 75%, 10%">
+  <frame src="header.html" name="headerFrame" />
+  <frameset cols="25%, 75%">
+    <frame src="nav.html" name="navFrame" />
+    <frame src="content.html" name="contentFrame" />
+  </frameset>
+  <frame src="footer.html" name="footerFrame" />
+</frameset>
+</html>
+#################### header.html ########################
+<!DOCTYPE html>
+<html>
+<body style="background-color: lightblue; text-align: center;">
+  <h1>Online Bookstore</h1>
+</body>
+</html>
+#################### nav.html ########################
+<!DOCTYPE html>
+<html>
+<body style="background-color: #f0f0f0;">
+  <h3>Categories</h3>
+  <ul>
+    <li><a href="aids.html" target="contentFrame">AI&DS</a></li>
+    <li><a href="ds.html" target="contentFrame">Data Science</a></li>
+    <li><a href="cybersecurity.html" target="contentFrame">Cybersecurity</a></li>
+  </ul>
+</body>
+</html>
+#################### aids.html ########################
+<!DOCTYPE html>
+<html>
+<body>
+  <h2>AI&DS Books</h2>
+  <p><b>AI for Beginners</b> by John Doe</p>
+  <p><b>Machine Learning 101</b> by Jane Smith</p>
+</body>
+</html>
+#################### similarly create ds.html and cybersecurity.html ########################
+
