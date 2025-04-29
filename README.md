@@ -1,33 +1,22 @@
 # 📚 WT Internal Repository
 
-This repository contains various files related to web technologies. Below is a table listing each file along with its contents for easy reference and copying.
+This repository contains various files related to web technologies. Below is a table listing each file along with a button to copy its contents.
 
-| File Name            | Contents |
-|----------------------|----------|
-| `add-cart.txt`       | ```plaintext
+| File Name            | Action |
+|----------------------|--------|
+| `add-cart.txt`       | [Click Here](#add-cart) |
+| `dynamic.txt`        | [Click Here](#dynamic) |
+| `form-forget.txt`    | [Click Here](#form-forget) |
+| `frames-full.txt`    | [Click Here](#frames-full) |
+| `frames-style.txt`   | [Click Here](#frames-style) |
+| `frames.txt`         | [Click Here](#frames) |
+| `user-form.txt`      | [Click Here](#user-form) |
+| `xml-onlinestore.txt`| [Click Here](#xml-onlinestore) |
+| `xml-useraccount.txt`| [Click Here](#xml-useraccount) |
+
+## 📋 File Contents
+
+### <a name="add-cart"></a>add-cart.txt
+
+```plaintext
 [Contents of add-cart.txt]
-``` |
-| `dynamic.txt`        | ```plaintext
-[Contents of dynamic.txt]
-``` |
-| `form-forget.txt`    | ```plaintext
-[Contents of form-forget.txt]
-``` |
-| `frames-full.txt`    | ```plaintext
-[Contents of frames-full.txt]
-``` |
-| `frames-style.txt`   | ```plaintext
-[Contents of frames-style.txt]
-``` |
-| `frames.txt`         | ```plaintext
-[Contents of frames.txt]
-``` |
-| `user-form.txt`      | ```plaintext
-[Contents of user-form.txt]
-``` |
-| `xml-onlinestore.txt`| ```plaintext
-[Contents of xml-onlinestore.txt]
-``` |
-| `xml-useraccount.txt`| ```plaintext
-[Contents of xml-useraccount.txt]
-``` |
