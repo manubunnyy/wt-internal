@@ -1,0 +1,29 @@
+########### forget.html #############
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Forgot Password</title>
+</head>
+<body>
+  <h2>Forgot Password</h2>
+  <form onsubmit="return validateEmail()">
+    Email: <input type="text" id="email"><br><br>
+    <input type="submit" value="Reset Password">
+  </form>
+
+  <script>
+    function validateEmail() {
+      const email = document.getElementById("email").value.trim();
+      const emailPattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/i;
+
+      if (!emailPattern.test(email)) {
+        alert("Please enter a valid email address.");
+        return false;
+      }
+
+      alert("Reset link sent to your email!");
+      return true;
+    }
+  </script>
+</body>
+</html>
