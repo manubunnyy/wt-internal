@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bookstore Cart</title>
+  <style>
+    #books, #cart {
+      float: left;
+      width: 45%;
+      margin: 2%;
+    }
+    ul { list-style: none; padding: 0; }
+    button { margin-top: 5px; }
+  </style>
+</head>
+<body>
+
+  <h2>Online Bookstore</h2>
+
+  <div id="books">
+    <h3>Available Books</h3>
+    <ul>
+      <li>
+        📘 Book One - $10 
+        <button onclick="addToCart('Book One', 10)">Add to Cart</button>
+      </li>
+      <li>
+        📕 Book Two - $15 
+        <button onclick="addToCart('Book Two', 15)">Add to Cart</button>
+      </li>
+      <li>
+        📗 Book Three - $12 
+        <button onclick="addToCart('Book Three', 12)">Add to Cart</button>
+      </li>
+    </ul>
+  </div>
+
+  <div id="cart">
+    <h3>Your Cart</h3>
+    <ul id="cartItems">
+      <li>No items in cart.</li>
+    </ul>
+    <p><strong>Total: $<span id="total">0</span></strong></p>
+  </div>
+
+  <script>
+    const cart = [];
+    
+    function addToCart(title, price) {
+      cart.push({ title, price });
+      updateCart();
+    }
+
+    function updateCart() {
+      const cartList = document.getElementById("cartItems");
+      const totalDisplay = document.getElementById("total");
+      cartList.innerHTML = "";
+
+      let total = 0;
+
+      cart.forEach(item => {
+        const li = document.createElement("li");
+        li.textContent = `${item.title} - $${item.price}`;
+        cartList.appendChild(li);
+        total += item.price;
+      });
+
+      if (cart.length === 0) {
+        cartList.innerHTML = "<li>No items in cart.</li>";
+      }
+
+      totalDisplay.textContent = total;
+    }
+  </script>
+
+</body>
+</html>
